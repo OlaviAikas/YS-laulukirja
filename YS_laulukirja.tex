@@ -38,7 +38,7 @@
 
 \usepackage[xindy]{imakeidx}
 \indexsetup{level=\chapter}
-\makeindex[title=Index,columns=1]
+\makeindex[title=Sisällysluettelo,columns=2]
 
 % \usepackage{imakeidx}
 % \indexsetup{level=\chapter}
@@ -223,7 +223,7 @@
 
 \thispagestyle{empty}
 \begin{center}
-	\includegraphics[width=\textwidth]{synttarisitsit_logo_bw.jpeg}
+	\includegraphics[width=0.8\textwidth, trim={6.7cm, 10.3cm, 7.2cm, 9cm}, clip]{YsiysiLogo.pdf}
     \Huge{\textbf{26.4.2025}}
 \end{center}
 
@@ -245,11 +245,9 @@
 % For filling empty pages with music sheets.
 % \includechapter{muistiinpanoja}
 
-\begin{multicols}{2}
-    
-    \printindex
-
-\end{multicols}
+\newpage
+\thispagestyle{empty}
+\printindex
 
 \newpage
 
